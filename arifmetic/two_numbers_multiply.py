@@ -1,3 +1,4 @@
+#multiply two entered numbers
 a = int(input('Please, enter first number: \n'))
 b = int(input('Please, enter second number: \n'))
 c = a + b

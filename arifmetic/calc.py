@@ -9,7 +9,7 @@ div — целочисленное деление.
 
 Обратите внимание, что на вход программе приходят вещественные числа."""
 
-#calculations
+#calculations multiply
 #1st num
 a = float(input())
 

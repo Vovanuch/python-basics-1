@@ -24,7 +24,8 @@ print(f'Whole digit: {int(new_s)}')
 
 print()
 print('3rd way. Map and lamdba usage.')
-try:
-    arr_m = filter(lambda x : x.isdigit(), s)
+list_s = list(s) 
+
+arr_m = list(map(int, filter(lambda x : x.isdigit(), s)))
     
 print(f'3rd array: {arr_m}')

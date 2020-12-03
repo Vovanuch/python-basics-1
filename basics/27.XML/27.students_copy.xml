@@ -1,0 +1,19 @@
+<studentsList>
+	<student id="1">
+		<lastName>Kuznetcov</lastName>
+		<firstName>Petr</firstName>
+		<scores>
+			<Russian>88</Russian>
+			<Math>92</Math>
+		</scores>
+	</student>
+	
+	<student id="2">
+		<lastName>Zyablikova</lastName>
+		<firstName>Irina</firstName>
+		<scores>
+			<Russian>94</Russian>
+			<Math>71</Math>
+		</scores>
+	</student>
+</studentsList>

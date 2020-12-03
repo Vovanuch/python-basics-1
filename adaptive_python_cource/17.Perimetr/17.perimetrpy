@@ -1,0 +1,21 @@
+'''
+
+
+Write a program which imports the math module and, by using the value of the number π \pi π from this module, finds the perimeter of the circle, which is given in a standard input, and outputs it to a standard output.
+
+Sample Input:
+
+10.0
+
+Sample Output:
+
+62.83185307179586
+
+'''
+import math
+try:
+    r = int(input().strip())
+    p = math.pi * (r**2)
+    print(p)
+except:
+    print('Incorrect imput')

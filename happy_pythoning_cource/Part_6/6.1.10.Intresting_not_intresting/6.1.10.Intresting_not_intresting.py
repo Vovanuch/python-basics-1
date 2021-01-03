@@ -36,7 +36,13 @@ Sample Output 3:
 
 '''
 n = input().strip()
-if abs(int(n[0])-int(n[2])) == int(n[1]):
+list_n = [int(i) for i in n]
+#print(list_n)
+dif = max(list_n) - min(list_n)
+average = sum(list_n) - max(list_n) - min(list_n)
+#print(dif, int(n[1]))
+
+if dif == average:
     print('Число интересное')
 else:
     print('Число неинтересное')

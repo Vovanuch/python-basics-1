@@ -56,3 +56,12 @@ Sample Output 3:
 
 '''
 
+a = float(input().strip())
+b = float(input().strip())
+
+s1 = (a + b) / 2
+s2 = (a * b)**0.5
+s3 = (2 * a * b)/(a + b)
+s4 = ((a**2 + b**2) / 2)**0.5
+
+print(s1, s2, s3, s4, sep='\n')

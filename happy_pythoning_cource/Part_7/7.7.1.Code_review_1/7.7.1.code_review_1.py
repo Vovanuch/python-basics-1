@@ -22,3 +22,5 @@ for i in range(10):
 if count:
     print(count)
     print(p)
+else:
+    print('NO')

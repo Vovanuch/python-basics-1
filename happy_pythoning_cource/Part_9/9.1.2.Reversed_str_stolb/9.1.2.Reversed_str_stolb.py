@@ -26,4 +26,6 @@ s = input().strip()
 for i in range(len(s)-1,-1,-1):
     print(s[i])
     
-print(s[::-1])
+# 2nd way:
+print()
+print(*list(s[::-1]), sep='\n')

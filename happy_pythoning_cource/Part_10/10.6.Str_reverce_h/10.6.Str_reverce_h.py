@@ -30,6 +30,7 @@ qwertyhgfdsahzxcvb
 
 s = input().strip()
 str_part = s[s.find('h')+1 : s.rfind('h')]
-s_new = s[:s.find('h')] + str_part + s[s.rfind('h')+1:]
+str_part = str_part[::-1]
+s_new = s[:s.find('h')+1] + str_part + s[s.rfind('h'):]
 
 print(s_new)

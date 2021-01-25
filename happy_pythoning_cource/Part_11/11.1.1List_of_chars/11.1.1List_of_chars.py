@@ -37,5 +37,5 @@ Sample Output 3:
 '''
 
 n = int(input().strip())
-list_ch = [chr(i) for i in range(97, 97 + i)]
+list_ch = [chr(i) for i in range(97, 97 + n)]
 print(list_ch)

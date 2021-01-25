@@ -40,10 +40,11 @@ s = input().strip().lower()
 list_element = ['Аденин', 'Гуанин', 'Цитозин', 'Тимин']
 list_e = ['а', 'г', 'ц', 'т']
 list_count = [0 for i in range(4)]
-list_count[0] = s.count('а')
-list_count[1] = s.count('г')
-list_count[2] = s.count('ц')
-list_count[3] = s.count('т')
 
+# get counts for all elements
+for i in range(4):
+    list_count[i] = s.count(list_e[i])
+
+# frint full  names and count of all elements
 for i in range(4):
     print(f'{list_element[i]}: {list_count[i]}')

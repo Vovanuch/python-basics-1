@@ -24,8 +24,8 @@ Sample Output:
 
 '''
 
-last_name = input().strip()
 first_name = input().strip()
+last_name = input().strip()
 second_name = input().strip()
 
 fio = (last_name[0] + first_name[0] + second_name[0]).upper()

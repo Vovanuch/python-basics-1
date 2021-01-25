@@ -25,7 +25,7 @@ Sample Output:
 
 '''
 n = int(input().strip())
-count = 1
+count = 0
 list_strs = []
 for i in range(n):
     list_strs.append(input().strip())
@@ -33,6 +33,7 @@ for i in range(n):
 for s in list_strs:
     if s.count('11') >= 3:
         count += 1
+        
         
 print(count)
 

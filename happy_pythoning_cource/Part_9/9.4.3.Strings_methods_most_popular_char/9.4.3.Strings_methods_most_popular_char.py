@@ -38,7 +38,7 @@ set_chars = set(s)
 max_count = -1
 most_popular_char = ''
 for c in s:
-    if s.count(c) > max_count:
+    if s.count(c) >= max_count:
         max_count = s.count(c)
         most_popular_char = c
 print(most_popular_char)

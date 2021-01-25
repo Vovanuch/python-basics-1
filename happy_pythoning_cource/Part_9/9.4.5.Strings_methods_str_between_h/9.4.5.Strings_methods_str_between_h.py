@@ -37,9 +37,9 @@ def get_list_of_indexes(my_list, char):
 s = input().strip()
 list_chars = list(s)
 char = 'h'
-list_h_indexes = get_list_of_indexes(list_chars. char)
+list_h_indexes = get_list_of_indexes(list_chars, char)
 
 if len(list_h_indexes) > 1:
-    s_new = s[:list_h_indexes[0]] + s[list_h_indexes[-1]:]
+    s_new = s[:list_h_indexes[0]] + s[list_h_indexes[-1]+1:]
 
 print(s_new)

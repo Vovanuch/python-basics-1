@@ -21,5 +21,8 @@
 def star_print(n):
     print('*' * n)
     
-for i in range(1, 11):
-    star_print(i)
+def draw_triangle(n):
+    for i in range(1, n):
+        star_print(i)
+        
+draw_triangle(10)

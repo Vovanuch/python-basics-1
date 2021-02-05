@@ -44,17 +44,14 @@ else:
 '''
 
 count_of_rows = int(input().strip()[1:])
-#print(count_of_rows)
-#s = '123'
-#s.index('1')
 
 list_of_rows = []
 for _ in range(count_of_rows):
-    list_of_rows.append(input().strip())
+    list_of_rows.append(input())
     
-for row in list_of_rows:
-    if '#' in row:
-        index_mesh = row.index('#')
-        row = row[:index_mesh]
+for row in range(len(list_of_rows)):
+    if '#' in list_of_rows[row]:
+        index_mesh = list_of_rows[row].index('#')
+        list_of_rows[row] = list_of_rows[row][:index_mesh].strip()
 
 print(*list_of_rows, sep='\n')

@@ -43,3 +43,8 @@ Sample Output 4:
 0 р. 60 коп.
 
 '''
+s = input().strip()
+len_s = len(s)
+cost_s = len_s * 60
+res = f'{cost_s // 100} р. {cost_s % 100} коп.'
+print(res)
